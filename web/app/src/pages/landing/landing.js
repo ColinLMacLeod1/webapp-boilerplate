@@ -1,4 +1,3 @@
-import './index.css';
 import logo from './img/logo.svg';
 
 function Landing() {

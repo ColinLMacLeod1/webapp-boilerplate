@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useContext } from "react";
-import Logger from "util/logger";
-const logger = Logger("Config-provider");
+import Logger from "../util/logger";
+const logger = Logger("providers/config");
 
 export const ConfigContext = React.createContext();
 
@@ -29,5 +29,7 @@ export const ConfigProvider = (props) => {
     </ConfigContext.Provider>
   );
 };
+
+export const ConfigConsumer = ConfigContext.Consumer;
 
 export const useConfig = () => useContext(ConfigContext);

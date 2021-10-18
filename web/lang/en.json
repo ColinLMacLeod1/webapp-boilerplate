@@ -1,0 +1,26 @@
+{
+    "lang": "en",
+    "locale": "CA",
+    "text": {
+        "header": {
+            "title": "App",
+            "login": "Log in",
+            "logout": "Log out",
+            "signup": "Sign up"
+        },
+        "landing": {
+            "intro": "Welcome to App"
+        },
+        "login": {
+            "loginButton": "Login",
+            "validation": {
+                "username": {
+                    "required": "Username is required"
+                },
+                "password": {
+                    "required": "Password is required"
+                }
+            }
+        }
+    }
+}
